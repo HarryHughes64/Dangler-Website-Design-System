@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "CircularStd Medium";
+    src: url('resources/fonts/CircularStd-Medium.woff2') format('woff2'),
+        url('resources/fonts/CircularStd-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "CircularStd Bold";
+    src: url('resources/fonts/CircularStd-Bold.woff2') format('woff2'),
+        url('resources/fonts/CircularStd-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "CircularStd Book";
+    src: url('resources/fonts/CircularStd-Book.woff2') format('woff2'),
+        url('resources/fonts/CircularStd-Book.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+    --danglerNavy: #1C234E;
+    --danglerPink: #ED0281;
+    --danglerTurqoise: #6FCACA;
+}
+
+.logo {
+  max-width: 15%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+    text-align:center;
+    font-family: "CircularStd Medium";
+    color: var(--danglerNavy);
+    font-size: 2.5em;
+}
