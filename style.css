@@ -45,3 +45,169 @@ h1 {
     color: var(--danglerNavy);
     font-size: 2.5em;
 }
+
+body {
+    min-height: 100vh;
+    max-width: 1024px;
+    background-color: white; 
+    margin: 0 auto;
+}
+
+h2.colour-title{
+    text-align: left;
+    font-family: "Circularstd Medium";
+    color:var(--danglerNavy);
+    font-size 1em;
+    border-bottom: 3px solid var(--danglerNavy);
+}
+h2.type-title{
+    text-align: left;
+    font-family: "Circularstd Medium";
+    color:var(--danglerNavy);
+    font-size 1em;
+    border-bottom: 3px solid var(--danglerNavy);
+}
+.colour_palette {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.container {
+    width: 100%;
+}
+.circle-content {
+    width: 25%;
+    text-align: center;
+    float: left;
+}
+#circle_navy {
+    background-color: var(--danglerNavy);
+}
+.circle-content p {
+    font-size: 20px;
+    color: black;
+    font-family: "Circularstd Medium";
+}
+#circle_pink {
+    background-color: var(--danglerPink);
+}
+#circle_turqoise {
+    background-color: var(--danglerTurqoise);
+}
+#cta_background {
+    background-color: #fff6fb;
+}
+
+* {
+    box-sizing: border-box;
+}
+#used_background {
+    background-color: #edfcfc;
+}
+#used_text {
+    background-color: #3baeae;
+}
+#new_text {
+    background-color: #ec0080;
+}
+#new_background {
+    background-color: #fff6fb;
+}
+ 
+.colour_container {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.type-title-type {
+    text-align: left;
+    font-family: "Circularstd Medium";
+    color:var(--danglerNavy);
+    font-size 1em;
+    border-bottom: 2px solid var(--danglerPink);
+}
+
+h4 {
+    text-align: left;
+    font-family: "Circularstd Medium";
+    color: black;
+    font-size 1em;
+}
+
+.h1_type p {
+    text-align: left;
+    font-family: "Circularstd Bold";
+    color: black;
+    font-size 0.75em;
+}
+
+.h2_type p {
+    text-align: left;
+    font-family: "Circularstd Medium";
+    color: black;
+    font-size 0.75em; 
+}
+.h2_type p {
+    text-align: left;
+    font-family: "Circularstd Book";
+    color: black;
+    font-size 0.75em; 
+}
+
+.selling_button {
+    display: inline-flex;
+    background-color: #ec0080;
+    color: white;
+    cursor: pointer;
+    justify-content: center;
+    border-radius: 1rem;
+    border-width: 1px;
+    border-color: transparent;
+    font-size: .875rem;
+    font-weight: 500;
+    line-height: 1;
+    box-sizing: border-box;
+    border: 0 solid;
+    width: 100px;
+    height: 25px;
+    align-items: center;
+}
+.makeanoffer_button {
+    display: inline-flex;
+    background-color: #1C234E;
+    color: white;
+    cursor: pointer;
+    justify-content: center;
+    border-radius: 1rem;
+    border-width: 1px;
+    border-color: transparent;
+    font-size: .875rem;
+    font-weight: 500;
+    line-height: 1;
+    box-sizing: border-box;
+    border: 0 solid;
+    width: 200px;
+    height: 25px;
+    align-items: center;
+}
+
+.buynow_button {
+    display: inline-flex;
+    background-color: #ED0281;
+    color: white;
+    cursor: pointer;
+    justify-content: center;
+    border-radius: 0.25rem;
+    border-width: 1px;
+    border-color: transparent;
+    font-size: .875rem;
+    font-weight: 500;
+    line-height: 1;
+    box-sizing: border-box;
+    border: 0 solid;
+    width: 350px;
+    height: 30px;
+    align-items: center;
+}
